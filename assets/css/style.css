@@ -9,6 +9,15 @@ body {
   color: #666666;
   font-family: "Open Sans", sans-serif;
 }
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+*::selection{
+  background-color: #b3b3b3;
+  color: white;
+}
 
 a {
   text-decoration: none;
